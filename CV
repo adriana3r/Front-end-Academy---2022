@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body {
+          font-family: "Barlow Condensed";
+        }
+    
+        .margenDerecho{
+            text-align: right;
+        }
+    
+        .justificado{
+            text-align: justify;
+        }
+
+        footer.centrado{
+            text-align: center;
+        }
+
+        h1{
+            padding-right: 25px;
+            font: size 7; font-weight: bolder;
+            color:rgb(247, 250, 247);
+        }
+
+        h3{
+            font: size 5; font-weight: bolder;
+            color: rgb(91, 94, 91);
+            
+            border-style: solid;
+            border-width: 5px 20px;
+            padding-right: 5px;
+            padding-left: 5px;    
+        }
+
+        p{
+            color:rgb(115, 248, 204);
+            font: size 3; font-weight: bold;
+            
+            padding-right: 80px;
+            padding-left: 80px;  
+        }
+
+        p1{
+            color:rgb(247, 250, 247);
+            font: size 3; font-weight: bold;  
+        }
+
+        ul{
+            color:rgb(115, 248, 204);
+            font: size 3; font-weight: bold;
+            
+            padding-right: 80px;
+            padding-left: 80px;  
+        }
+    </style>   
+</head>
+  
+
+<body>
+    <div style="background-image: url('https://img.remediosdigitales.com/902abd/hacker-01/1366_2000.jpg');background-size: cover; background-repeat: no-repeat">
+    
+    <h1 class="margenDerecho">Javier Arboleda
+        <button type="button" onclick="alert('j-arboleda@email.com')"><img src="https://i.ibb.co/6NsFN5s/iconfinder-gmail-1220367.png" alt="Carga fallida. Presione F5."></button></span><span><button type="button" onclick="alert('+34 000 000 122')"><img src="https://i.ibb.co/cXGqPhm/iconfinder-Whats-App-1298775.png" alt="Carga fallida. Presione F5."></button></h1>
+
+    <h3><i class="fa fa-angle-double-right" style="font-size:24px;color:rgb(250, 248, 248)"></i> <u> Formación</u></h3>
+        <ul class="justificado">
+            <li>2019 Curso de adaptación web y accesibilidad Ayuntamiento de Málaga. Formación de 40 horas sobre cómo adaptar los sitios web y aplicaciones móviles a personas con problemas de visión.</li>
+            <li>2018 Bootcamp de programación Codeworks. Curso intensivo de 18 semanas sobre desarrollo web, uso de programas específicos y orientación profesional.</li>
+            <li>2013-2017 Grado en Ingeniería informática Universidad de Málaga. Matrícula de honor en la asignatura de Programación, materia en la que centré mi trabajo final de investigación.</li>
+        </ul> 
+        
+    <h3><i class="fa fa-angle-double-right" style="font-size:24px;color:rgb(250, 248, 248)"></i> <u> Experiencia laboral</u></h3>
+        <ul class="justificado">
+            <li>2018-2021 Desarrollador web Wavewood Tecnología Labores de programación, desarrollo, revisión de errores e informes de calidad de los distintos programas y plataformas internas de la empresa.</li>
+            <li>2017-2018 Desarrollador web en prácticas Wavewood Laboratorio Digital Prácticas laborales en el departamento de desarrollo web de la empresa, en la que comencé a realizar mis primeras tareas de desarrollo web y móvil.</li>
+        </ul> 
+
+    <h3><i class="fa fa-angle-double-right" style="font-size:24px;color:rgb(250, 248, 248)"></i> <u> Habilidades</u></h3>
+        <p class="justificado">Me considero una persona organizada, creativa y responsable. Me apasiona mi trabajo y, cuando un proyecto me parece interesante, me vuelco en él buscando las mejores soluciones para los clientes. Tengo amplios conocimientos de lenguaje y códigos informáticos, como JavaScript y HTML.</p>
+        
+        <h3><i class="fa fa-angle-double-right" style="font-size:24px;color:rgb(250, 248, 248)"></i> <u> Más datos de interés</u></h3>
+        <ul class="justificado">
+            <li>Dispongo de carné de conducir B y vehículo propio.</li>
+            <li>Posibilidad de incorporación inmediata en jornada completa.</li>
+            <li>Alto nivel de inglés (C1, acreditado por Cambridge English) y alemán (B2, acreditado por el Goethe-Institut).</li>
+        </ul>    
+             
+    <footer class="centrado">
+        <p1>CONTÁCTEME al +34 000 000 122 o ENVÍE UN CORREO a j-arboleda@email.com</p1>   
+    </footer>
+</body>
+</html>
